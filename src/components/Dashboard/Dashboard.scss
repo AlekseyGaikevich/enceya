@@ -1,33 +1,29 @@
 .header {
-    position: absolute;
-    width: 1152px;
+    width: 100%;
     height: 627px;
-    left: 384px;
-    top: 102px;
+    margin-top: 102px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 1152px) {
+        width: 1152px;
+    }
+    @media screen and (max-width: 1152px) {
+        margin-top: 60px;
+    }
     .logotype {
-        position: absolute;
         width: 200px;
         height: 51.83px;
-        left: 472px;
-        top: 0;
         .logo_enceya {
-            position: absolute;
             width: 200px;
             height: 51.83px;
-            left: 0;
-            top: 0;
         }
     }
     .about {
-        position: absolute;
-        width: 1152px;
+        width: 100%;
         height: 203.35px;
-        left: 0;
-        right: 0;
-        top: 214px;
-
+        margin-top: 160px;
         /* Web / Headline */
-
         font-family: Aeroport;
         font-style: normal;
         font-weight: 300;
@@ -35,31 +31,28 @@
         line-height: 68px;
         text-align: center;
         letter-spacing: -0.04em;
-
         /* Black */
-
         color: #0A0D13;
+        @media screen and (min-width: 1152px) {
+            width: 1152px;
+        }@media screen and (max-width: 1152px) {
+            height: 100%;
+        }
         p {
             margin-block-start: 0;
             margin-block-end: 0;
         }
     }
     .btn_started {
-        top: 495px;
-        left: 476.5px;
+        margin-top: 80px;
     }
     .link_sign_in {
-        position: absolute;
         width: 87px;
         height: 41px;
-        left: 532.5px;
-        top: 586px;
+        margin-top: 30px;
         span {
-            position: absolute;
             width: 87px;
             height: 41px;
-            left: 0;
-            top: 0;
             /* Web / Button */
             font-family: Aeroport;
             font-style: normal;
@@ -76,17 +69,22 @@
 }
 
 .what_we_do {
-    position: absolute;
-    width: 1750px;
+    width: 100%;
     height: 648px;
-    left: 85px;
-    top: 827px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 1750px) {
+        width: 1750px;
+    }
+    .gradient {
+        top: 929px;
+    }
     .what_we_do__header {
-        position: absolute;
         width: 262px;
         height: 68px;
-        left: 745px;
-        top: 40px;
+        margin: 40px 0 60px 0;
         /* Web / Headline */
         font-family: Aeroport;
         font-style: normal;
@@ -99,14 +97,9 @@
         color: #0A0D13;
     }
     .what_we_do__items {
-        position: absolute;
         width: 280px;
         height: 480px;
-        left: 745px;
-        top: 168px;
         p {
-            margin-block-start: 0;
-            margin-block-end: 0;
             font-family: Aeroport;
             font-style: normal;
             font-weight: 300;
@@ -121,17 +114,19 @@
 }
 
 .how_we_work {
-    position: absolute;
-    width: 1300px;
+    width: 100%;
     height: 3758px;
-    left: 310px;
-    top: 1777px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 1300px) {
+        width: 1300px;
+    }
     .how_we_work__header {
-        position: absolute;
+        margin-bottom: 30px;
         width: 292px;
         height: 68px;
-        left: 504px;
-        top: 0;
         /* Web / Headline */
         font-family: Aeroport;
         font-style: normal;
@@ -143,29 +138,34 @@
         /* Black */
         color: #0A0D13;
     }
-    .how_we_work__step1 {
-        position: absolute;
-        width: 1300px;
+    .how_we_work__item {
+        margin-top: 50px;
+        width: 100%;
         height: max-content;
-        left: 0;
-        top: 148px;
-        .stroke {
-            position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        @media screen and (min-width: 1300px) {
             width: 1300px;
+        }
+        .stroke {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
             height: 1139px;
-            left: 0;
-            top: 148px;
             border: 1px solid #D6DEE4;
             box-sizing: border-box;
             border-radius: 50px;
+            @media screen and (min-width: 1300px) {
+                width: 1300px;
+            }
         }
         .step1 {
             /* Step 1 */
-            position: absolute;
             width: 96px;
             height: 40px;
-            left: 602px;
-            top: 205px;
+            margin-top: 50px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -185,11 +185,9 @@
             border-radius: 5px;
         }
         .name {
-            position: absolute;
-            width: 829px;
+            width: 100%;
             height: 60px;
-            left: 236px;
-            top: 270px;
+            margin-top: 25px;
             /* Web / Second */
             font-family: Aeroport;
             font-style: normal;
@@ -201,13 +199,14 @@
             letter-spacing: -0.04em;
             /* Black */
             color: #0A0D13;
+            @media screen and (min-width: 829px) {
+                width: 829px;
+            }
         }
         .form_name {
-            position: absolute;
-            width: 662px;
+            width: 100%;
             height: 82px;
-            left: 319px;
-            top: 350px;
+            margin-top: 20px;
             /* Web / Secondary */
             font-family: Aeroport;
             font-style: normal;
@@ -218,176 +217,27 @@
             letter-spacing: -0.04em;
             /* Dark Blue Grey */
             color: #9CA6AE;
-        }
-    }
-    .how_we_work__step2 {
-        position: absolute;
-        width: 1300px;
-        height: max-content;
-        left: 0;
-        top: 1368px;
-        .stroke {
-            position: absolute;
-            width: 1300px;
-            height: 1139px;
-            left: 0;
-            top: 148px;
-            border: 1px solid #D6DEE4;
-            box-sizing: border-box;
-            border-radius: 50px;
-        }
-        .step1 {
-            /* Step 1 */
-            position: absolute;
-            width: 96px;
-            height: 40px;
-            left: 602px;
-            top: 205px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            /* Web / Steps */
-            font-family: Aeroport;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 27px;
-            text-align: center;
-            letter-spacing: -0.04em;
-            text-transform: uppercase;
-            /* Second Blue */
-            color: #77BCE3;
-            /* Light Blue */
-            background: #EDF7FF;
-            border-radius: 5px;
-        }
-        .name {
-            position: absolute;
-            width: 829px;
-            height: 60px;
-            left: 236px;
-            top: 270px;
-            /* Web / Second */
-            font-family: Aeroport;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 40px;
-            line-height: 150%;
-            /* identical to box height, or 60px */
-            text-align: center;
-            letter-spacing: -0.04em;
-            /* Black */
-            color: #0A0D13;
-        }
-        .form_name {
-            position: absolute;
-            width: 662px;
-            height: 82px;
-            left: 319px;
-            top: 350px;
-            /* Web / Secondary */
-            font-family: Aeroport;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 30px;
-            line-height: 41px;
-            text-align: center;
-            letter-spacing: -0.04em;
-            /* Dark Blue Grey */
-            color: #9CA6AE;
-        }
-    }
-    .how_we_work__step3 {
-        position: absolute;
-        width: 1300px;
-        height: max-content;
-        left: 0;
-        top: 2588px;
-        .stroke {
-            position: absolute;
-            width: 1300px;
-            height: 1139px;
-            left: 0;
-            top: 148px;
-            border: 1px solid #D6DEE4;
-            box-sizing: border-box;
-            border-radius: 50px;
-        }
-        .step1 {
-            /* Step 1 */
-            position: absolute;
-            width: 96px;
-            height: 40px;
-            left: 602px;
-            top: 205px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            /* Web / Steps */
-            font-family: Aeroport;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 20px;
-            line-height: 27px;
-            text-align: center;
-            letter-spacing: -0.04em;
-            text-transform: uppercase;
-            /* Second Blue */
-            color: #77BCE3;
-            /* Light Blue */
-            background: #EDF7FF;
-            border-radius: 5px;
-        }
-        .name {
-            position: absolute;
-            width: 829px;
-            height: 60px;
-            left: 236px;
-            top: 270px;
-            /* Web / Second */
-            font-family: Aeroport;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 40px;
-            line-height: 150%;
-            /* identical to box height, or 60px */
-            text-align: center;
-            letter-spacing: -0.04em;
-            /* Black */
-            color: #0A0D13;
-        }
-        .form_name {
-            position: absolute;
-            width: 662px;
-            height: 82px;
-            left: 319px;
-            top: 350px;
-            /* Web / Secondary */
-            font-family: Aeroport;
-            font-style: normal;
-            font-weight: 300;
-            font-size: 30px;
-            line-height: 41px;
-            text-align: center;
-            letter-spacing: -0.04em;
-            /* Dark Blue Grey */
-            color: #9CA6AE;
+            @media screen and (min-width: 662px) {
+                width: 662px;
+            }
         }
     }
 }
 
 .helper {
-    position: absolute;
-    width: 1750px;
+    margin-top: 150px;
+    width: 100%;
     height: 534px;
-    left: 85px;
-    top: 5685px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 1750px) {
+        width: 1750px;
+    }
     .helper_content {
-        position: absolute;
-        width: 820px;
+        width: 100%;
         height: 204px;
-        left: 465px;
-        top: 129px;
+        margin-top: 129px;
         /* Web / Headline */
         font-family: Aeroport;
         font-style: normal;
@@ -398,25 +248,28 @@
         letter-spacing: -0.04em;
         /* Black */
         color: #0A0D13;
+        @media screen and (min-width: 820px) {
+            width: 820px;
+        }
     }
     .btn_started {
-        top: 473px;
-        left: 775.5px;
+        margin-top: 140px;
     }
 }
 
 .footer {
-    position: absolute;
-    width: 782.75px;
+    margin-top: 206px;
+    width: 100%;
     height: 317px;
-    left: 569px;
-    top: 6425px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    @media screen and (min-width: 782.75px) {
+        width: 782.75px;
+    }
     .footer_social {
-        position: absolute;
         width: 100%;
         height: 37px;
-        left: 0;
-        top: 0;
         display: flex;
         justify-content: space-between;
         list-style: none;
@@ -455,21 +308,17 @@
         
     }
     .footer_logotype {
-        position: absolute;
+        margin-top: 100px;
         width: 150px;
         height: 39px;
-        left: 316.16px;
-        top: 137px;
         color: #D6DEE4;
         text-align: center;
         font-size: 50px;
     }
     .footer_year {
-        position: absolute;
+        margin-top: 100px;
         width: 68px;
         height: 41px;
-        left: 360.875px;
-        top: 276px;
         /* Web / Button */
         font-family: Aeroport;
         font-style: normal;
@@ -484,12 +333,17 @@
     }
 }
 
+p {
+    margin-block-start: 0;
+    margin-block-end: 0
+}
+
 .btn_started {
     cursor: pointer;
     display: flex;
     flex-direction: row;
-    padding: 10px 25px;
-    position: absolute;
+    padding: 10px 25px 0;
+    text-decoration: none;
     width: 199px;
     height: 61px;
     background: linear-gradient(180deg, #0A77CC 0%, #105183 100%), #0A77CC;
@@ -500,11 +354,8 @@
         background: linear-gradient(180deg, #0B5F9F 0%, #073253 100%);
     }
     span {
-        position: absolute;
         width: 149px;
         height: 41px;
-        left: 25px;
-        top: 5px;
         /* Web / Button */
         font-family: Aeroport;
         font-style: normal;
@@ -520,16 +371,18 @@
         flex: none;
         order: 0;
         align-self: center;
-        margin: 10px 0px;
+        margin: 10px 0;
     }
 }
 
 .gradient {
     position: absolute;
-    width: 1750px;
+    width: 100%;
     height: 400px;
-    left: 0;
-    top: 0;
     filter: blur(250px);
     background: linear-gradient(97.96deg, rgba(122, 241, 148, 0.61) 5.65%, rgba(159, 186, 228, 0.82125) 53.33%, #BED8FF 93.67%);
+    z-index: -1;
+    @media screen and (min-width: 1750px) {
+        width: 1750px;
+    }
 }
