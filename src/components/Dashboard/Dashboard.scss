@@ -1,0 +1,535 @@
+.header {
+    position: absolute;
+    width: 1152px;
+    height: 627px;
+    left: 384px;
+    top: 102px;
+    .logotype {
+        position: absolute;
+        width: 200px;
+        height: 51.83px;
+        left: 472px;
+        top: 0;
+        .logo_enceya {
+            position: absolute;
+            width: 200px;
+            height: 51.83px;
+            left: 0;
+            top: 0;
+        }
+    }
+    .about {
+        position: absolute;
+        width: 1152px;
+        height: 203.35px;
+        left: 0;
+        right: 0;
+        top: 214px;
+
+        /* Web / Headline */
+
+        font-family: Aeroport;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 68px;
+        text-align: center;
+        letter-spacing: -0.04em;
+
+        /* Black */
+
+        color: #0A0D13;
+        p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    }
+    .btn_started {
+        top: 495px;
+        left: 476.5px;
+    }
+    .link_sign_in {
+        position: absolute;
+        width: 87px;
+        height: 41px;
+        left: 532.5px;
+        top: 586px;
+        span {
+            position: absolute;
+            width: 87px;
+            height: 41px;
+            left: 0;
+            top: 0;
+            /* Web / Button */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 41px;
+            /* identical to box height */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Blue */
+            color: #0A77CC;
+        }
+    }
+}
+
+.what_we_do {
+    position: absolute;
+    width: 1750px;
+    height: 648px;
+    left: 85px;
+    top: 827px;
+    .what_we_do__header {
+        position: absolute;
+        width: 262px;
+        height: 68px;
+        left: 745px;
+        top: 40px;
+        /* Web / Headline */
+        font-family: Aeroport;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 68px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        /* Black */
+        color: #0A0D13;
+    }
+    .what_we_do__items {
+        position: absolute;
+        width: 280px;
+        height: 480px;
+        left: 745px;
+        top: 168px;
+        p {
+            margin-block-start: 0;
+            margin-block-end: 0;
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 150%;
+            /* or 60px */
+            text-align: center;
+            letter-spacing: -0.04em;
+            color: #0A0D13;
+        }
+    }
+}
+
+.how_we_work {
+    position: absolute;
+    width: 1300px;
+    height: 3758px;
+    left: 310px;
+    top: 1777px;
+    .how_we_work__header {
+        position: absolute;
+        width: 292px;
+        height: 68px;
+        left: 504px;
+        top: 0;
+        /* Web / Headline */
+        font-family: Aeroport;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 68px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        /* Black */
+        color: #0A0D13;
+    }
+    .how_we_work__step1 {
+        position: absolute;
+        width: 1300px;
+        height: max-content;
+        left: 0;
+        top: 148px;
+        .stroke {
+            position: absolute;
+            width: 1300px;
+            height: 1139px;
+            left: 0;
+            top: 148px;
+            border: 1px solid #D6DEE4;
+            box-sizing: border-box;
+            border-radius: 50px;
+        }
+        .step1 {
+            /* Step 1 */
+            position: absolute;
+            width: 96px;
+            height: 40px;
+            left: 602px;
+            top: 205px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Web / Steps */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            /* Second Blue */
+            color: #77BCE3;
+            /* Light Blue */
+            background: #EDF7FF;
+            border-radius: 5px;
+        }
+        .name {
+            position: absolute;
+            width: 829px;
+            height: 60px;
+            left: 236px;
+            top: 270px;
+            /* Web / Second */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 150%;
+            /* identical to box height, or 60px */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Black */
+            color: #0A0D13;
+        }
+        .form_name {
+            position: absolute;
+            width: 662px;
+            height: 82px;
+            left: 319px;
+            top: 350px;
+            /* Web / Secondary */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 41px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Dark Blue Grey */
+            color: #9CA6AE;
+        }
+    }
+    .how_we_work__step2 {
+        position: absolute;
+        width: 1300px;
+        height: max-content;
+        left: 0;
+        top: 1368px;
+        .stroke {
+            position: absolute;
+            width: 1300px;
+            height: 1139px;
+            left: 0;
+            top: 148px;
+            border: 1px solid #D6DEE4;
+            box-sizing: border-box;
+            border-radius: 50px;
+        }
+        .step1 {
+            /* Step 1 */
+            position: absolute;
+            width: 96px;
+            height: 40px;
+            left: 602px;
+            top: 205px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Web / Steps */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            /* Second Blue */
+            color: #77BCE3;
+            /* Light Blue */
+            background: #EDF7FF;
+            border-radius: 5px;
+        }
+        .name {
+            position: absolute;
+            width: 829px;
+            height: 60px;
+            left: 236px;
+            top: 270px;
+            /* Web / Second */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 150%;
+            /* identical to box height, or 60px */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Black */
+            color: #0A0D13;
+        }
+        .form_name {
+            position: absolute;
+            width: 662px;
+            height: 82px;
+            left: 319px;
+            top: 350px;
+            /* Web / Secondary */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 41px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Dark Blue Grey */
+            color: #9CA6AE;
+        }
+    }
+    .how_we_work__step3 {
+        position: absolute;
+        width: 1300px;
+        height: max-content;
+        left: 0;
+        top: 2588px;
+        .stroke {
+            position: absolute;
+            width: 1300px;
+            height: 1139px;
+            left: 0;
+            top: 148px;
+            border: 1px solid #D6DEE4;
+            box-sizing: border-box;
+            border-radius: 50px;
+        }
+        .step1 {
+            /* Step 1 */
+            position: absolute;
+            width: 96px;
+            height: 40px;
+            left: 602px;
+            top: 205px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* Web / Steps */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 27px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            text-transform: uppercase;
+            /* Second Blue */
+            color: #77BCE3;
+            /* Light Blue */
+            background: #EDF7FF;
+            border-radius: 5px;
+        }
+        .name {
+            position: absolute;
+            width: 829px;
+            height: 60px;
+            left: 236px;
+            top: 270px;
+            /* Web / Second */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 40px;
+            line-height: 150%;
+            /* identical to box height, or 60px */
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Black */
+            color: #0A0D13;
+        }
+        .form_name {
+            position: absolute;
+            width: 662px;
+            height: 82px;
+            left: 319px;
+            top: 350px;
+            /* Web / Secondary */
+            font-family: Aeroport;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 41px;
+            text-align: center;
+            letter-spacing: -0.04em;
+            /* Dark Blue Grey */
+            color: #9CA6AE;
+        }
+    }
+}
+
+.helper {
+    position: absolute;
+    width: 1750px;
+    height: 534px;
+    left: 85px;
+    top: 5685px;
+    .helper_content {
+        position: absolute;
+        width: 820px;
+        height: 204px;
+        left: 465px;
+        top: 129px;
+        /* Web / Headline */
+        font-family: Aeroport;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 50px;
+        line-height: 68px;
+        text-align: center;
+        letter-spacing: -0.04em;
+        /* Black */
+        color: #0A0D13;
+    }
+    .btn_started {
+        top: 473px;
+        left: 775.5px;
+    }
+}
+
+.footer {
+    position: absolute;
+    width: 782.75px;
+    height: 317px;
+    left: 569px;
+    top: 6425px;
+    .footer_social {
+        position: absolute;
+        width: 100%;
+        height: 37px;
+        left: 0;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        font-size: 28px;
+        color: #D6DEE4;
+        .twitter_icon {
+            content: url('../../assets/img/social_icons/twitter.svg');
+            &:hover {
+                content: url('../../assets/img/social_icons/twitter_hover.svg');
+            }
+        }
+        .inst_icon {
+            content: url('../../assets/img/social_icons/instagram.svg');
+            &:hover {
+                content: url('../../assets/img/social_icons/instagram_hover.svg');
+            }
+        }
+        .dribbble_icon {
+            content: url('../../assets/img/social_icons/dribbble.svg');
+            &:hover {
+                content: url('../../assets/img/social_icons/dribbble_hover.svg');
+            }
+        }
+        .behance_icon {
+            content: url('../../assets/img/social_icons/behance.svg');
+            &:hover {
+                content: url('../../assets/img/social_icons/behance_hover.svg');
+            }
+        }
+        .mail_icon {
+            content: url('../../assets/img/social_icons/mail.svg');
+            &:hover {
+                content: url('../../assets/img/social_icons/mail_hover.svg');
+            }
+        }
+        
+    }
+    .footer_logotype {
+        position: absolute;
+        width: 150px;
+        height: 39px;
+        left: 316.16px;
+        top: 137px;
+        color: #D6DEE4;
+        text-align: center;
+        font-size: 50px;
+    }
+    .footer_year {
+        position: absolute;
+        width: 68px;
+        height: 41px;
+        left: 360.875px;
+        top: 276px;
+        /* Web / Button */
+        font-family: Aeroport;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 41px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: -0.04em;
+        /* Blue Grey */
+        color: #D6DEE4;
+    }
+}
+
+.btn_started {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    position: absolute;
+    width: 199px;
+    height: 61px;
+    background: linear-gradient(180deg, #0A77CC 0%, #105183 100%), #0A77CC;
+    border: 1px solid #1968A6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    &:hover {
+        background: linear-gradient(180deg, #0B5F9F 0%, #073253 100%);
+    }
+    span {
+        position: absolute;
+        width: 149px;
+        height: 41px;
+        left: 25px;
+        top: 5px;
+        /* Web / Button */
+        font-family: Aeroport;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 41px;
+        /* identical to box height */
+        text-align: center;
+        letter-spacing: -0.04em;
+        /* White */
+        color: #FFFFFF;
+        /* Inside Auto Layout */
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 10px 0px;
+    }
+}
+
+.gradient {
+    position: absolute;
+    width: 1750px;
+    height: 400px;
+    left: 0;
+    top: 0;
+    filter: blur(250px);
+    background: linear-gradient(97.96deg, rgba(122, 241, 148, 0.61) 5.65%, rgba(159, 186, 228, 0.82125) 53.33%, #BED8FF 93.67%);
+}
