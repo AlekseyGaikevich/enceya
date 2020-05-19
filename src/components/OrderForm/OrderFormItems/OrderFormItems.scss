@@ -1,0 +1,30 @@
+.order_name {
+  /* Auto Layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+  margin: 0 50px 50px 0;
+  /* Black */
+  border: 1px solid #0A0D13;
+  box-sizing: border-box;
+  border-radius: 100px;
+  color: #0A0D13;
+  /* Web / Button */
+  font-family: Aeroport;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  /* identical to box height */
+  letter-spacing: -0.04em;
+  /* cursor */
+  cursor: pointer;
+  &.active {
+    /* Blue */
+    background: #0A77CC;
+    /* Blue */
+    border: 1px solid #0A77CC;
+    color: #FFFFFF;
+  }
+}

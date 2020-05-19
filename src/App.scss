@@ -9,4 +9,7 @@
   @media screen and (min-width: 1835px) {
     width: 1835px;
   }
+  @media screen and (max-width: 990px) {
+    height: max-content;
+  }
 }
